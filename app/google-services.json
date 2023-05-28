@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "237921928477",
+    "project_id": "androidnotifictions",
+    "storage_bucket": "androidnotifictions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237921928477:android:ff858de82dc0dc4cb34df4",
+        "android_client_info": {
+          "package_name": "com.cadenza.androidnotifictions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLr8ryj9oWUsbWprPQcB3-eFMgfMZu-EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

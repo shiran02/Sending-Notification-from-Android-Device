@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendNotificationActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="elmai@gmail.com"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        android:layout_margin="4dp"/>
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="4dp"/>
+
+    <EditText
+        android:id="@+id/editTextBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="4dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:backgroundTint="#06E8CE"/>
+
+</LinearLayout>
